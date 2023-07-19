@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- tailwind style -->
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="absolute w-full z-50">
+      <div class="container py-5">
+        <div class="flex flex-row justify-between items-center">
+          <div class="flex w-56 items-center">
+            <img src="../public/asset/logo.svg" alt="" />
+          </div>
+          <div class="flex flex-row justify-center gap-5">
+            <img src="../public/asset/menu hamburger.svg" alt="" />
+            <img src="../public/asset/cart.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="relative flex">
+      <div class="absolute inset-0 md:relative lg:relative w-full md:w-1/2 lg:w-1/2 justify-center container flex flex-col text-center z-10">
+        <h1 class="text-3xl font-semibold mx-auto leading-normal">The Room <span class="block"> You've Dreaming</span></h1>
+        <p class="text-base font-normal mx-auto mt-3 mb-5">Kami menyediakan furniture berkelas <span class="block"> yang membuat ruangan terasa homey</span></p>
+        <button class="bg-pink rounded-full py-3 px-9 text-black font-semibold text-[18px] mx-auto">Explore Now</button>
+      </div>
+
+      <div class="relative inset-0 flex flex-col md:flex-row lg:flex-row w-full md:w-1/2 lg:w-1/2 bg-slate-500">
+        <div class="bg-cover lg:bg-center lg:h-[580px] z-0 inset-0 w-screen h-[470px]" style="background-image: url('../public/asset/hero\ image.png')"></div>
+
+        <img src="../public/asset/btn_play.svg" alt="" class="0 absolute z-10 -bottom-6 right-4 md:bottom-1/2 md:left-1/2 md:-translate-x-1/2 lg:bottom-1/2 lg:left-1/2 lg:-translate-x-1/2" />
+      </div>
+    </section>
+  </body>
+</html>
