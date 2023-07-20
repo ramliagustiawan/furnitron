@@ -40,37 +40,87 @@
       </div>
     </section>
 
-    <section>
-      <div class="container mt-[60px]">
+    <!-- Browse The Room Start -->
+
+    <section class="lg:bg-bgsatu lg:py-[100px] pt-[60px]">
+      <div class="container">
         <h1 class="text-black text-[22px] font-semibold leading-9">Browse The Room <span class="block">That We Designed For You</span></h1>
       </div>
-      <div class="container mt-[30px] flex flex-col gap-4">
-        <div class="bg-cover h-[180px] rounded-xl relative" style="background-image: url(../public/asset/image\ 4.png)">
-          <div class="absolute inset-y-[75px] right-10">
+      <!-- card start -->
+      <div class="container mt-[30px] grid grid-cols-12 gap-4 lg:grid lg:grid-rows-4 lg:grid-flow-col">
+        <!-- card 1 -->
+        <div class="bg-cover h-[180px] rounded-xl relative col-span-12 md:col-span-6 lg:row-span-2 lg:col-span-5 bg-green-500" style="background-image: url(../public/asset/image\ 4.png)">
+          <div class="absolute inset-y-[75px] left-[170px] lg:inset-y-[75px] lg:left-[250px]">
             <h1 class="text-black text-xl font-semibold">Living Room</h1>
             <p class="text-black text-sm font-normal">18,309 items</p>
           </div>
         </div>
-        <div class="bg-cover h-[180px] rounded-xl relative" style="background-image: url(../public/asset/image\ 5.png)">
-          <div class="absolute inset-y-[75px] right-10">
+        <!-- card 2 -->
+        <div class="bg-cover h-[180px] rounded-xl relative col-span-12 md:col-span-6 lg:row-span-2 lg:col-span-5" style="background-image: url(../public/asset/image\ 5.png)">
+          <div class="absolute inset-y-[75px] left-[170px] lg:inset-y-[75px] lg:left-[250px]">
             <h1 class="text-black text-xl font-semibold">Children Room</h1>
             <p class="text-black text-sm font-normal">837 items items</p>
           </div>
         </div>
-        <div class="bg-cover bg-center h-[180px] rounded-xl relative" style="background-image: url(../public/asset/image\ 6.png)">
-          <div class="absolute inset-y-[75px] right-10">
+        <!-- card 3  -->
+        <div class="bg-cover bg-left-bottom h-[180px] lg:h-full col-span-12 rounded-xl relative md:col-span-6 lg:col-span-3 lg:row-span-4" style="background-image: url(../public/asset/image\ 6.png)">
+          <div class="absolute inset-y-[75px] left-[170px] lg:-translate-x-1/2">
             <h1 class="text-black text-xl font-semibold">Decoration</h1>
             <p class="text-black text-sm font-normal">837 items</p>
           </div>
         </div>
-        <div class="bg-cover bg-center h-[180px] rounded-xl relative" style="background-image: url(../public/asset/image\ 7.png)">
-          <div class="absolute inset-y-[75px] right-10">
+        <!-- card 4 -->
+        <div class="bg-cover bg-center h-[180px] lg:h-full rounded-xl col-span-12 relative md:col-span-6 lg:col-span-4 lg:row-span-4 bg-red-500" style="background-image: url(../public/asset/image\ 7.png)">
+          <div class="absolute inset-y-[75px] left-[170px]">
             <h1 class="text-black text-xl font-semibold">Bed Room</h1>
             <p class="text-black text-sm font-normal">22,094 items</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Just Arrived start -->
+
+    <section>
+      <div class="lg:pt-[100px]">
+        <h1 class="text-black text-[22px] font-semibold leading-9 text-center">Just Arrived <span class="block">This Summer For You</span></h1>
+      </div>
+      <!-- card start -->
+      <div class="container mt-[70px] lg:grid lg:grid-cols-12 lg:snap-x overflow-scroll">
+        <!-- card 1 -->
+        <div class="lg:col-span-3 gap-[30px] lg:scroll-ml-6 snap-start">
+          <img src="../public/asset/image 9.png" alt="" class="w-[287px] h-[386px]" />
+          <h1 class="text-black text-xl font-semibold pt-6">Cangkir Mauttie</h1>
+          <p class="text-black text-lg font-normal pt-[6px]">IDR 89.300.0000</p>
+        </div>
+
+        <div class="lg:col-span-3 gap-[30px] lg:scroll-ml-6 snap-start">
+          <img src="../public/asset/image 10.png" alt="" class="w-[287px] h-[386px]" />
+          <h1 class="text-black text-xl font-semibold pt-6">Bankyu Minimax</h1>
+          <p class="text-black text-lg font-normal pt-[6px]">IDR 67.000.000</p>
+        </div>
+
+        <div class="lg:col-span-3 gap-[30px] lg:scroll-ml-6 snap-start">
+          <img src="../public/asset/image 11.png" alt="" class="w-[287px] h-[386px]" />
+          <h1 class="text-black text-xl font-semibold pt-6">Buku Sidu Edition</h1>
+          <p class="text-black text-lg font-normal pt-[6px]">IDR 12.000.000</p>
+        </div>
+
+        <div class="lg:col-span-3 gap-[30px] lg:scroll-ml-6 snap-start">
+          <img src="../public/asset/image 12.png" alt="" class="w-[287px] h-[386px]" />
+          <h1 class="text-black text-xl font-semibold pt-6">Watch Notes X</h1>
+          <p class="text-black text-lg font-normal pt-[6px]">IDR 73.000.000</p>
+        </div>
+
+        <div class="lg:col-span-3 gap-[30px] lg:scroll-ml-6 snap-start">
+          <img src="../public/asset/image 8.png" alt="" class="w-[287px] h-[386px]" />
+          <h1 class="text-black text-xl font-semibold pt-6">Racking Plants</h1>
+          <p class="text-black text-lg font-normal pt-[6px]">IDR 2.400.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latihan -->
 
     <section>
       <div class="container mt-10">
@@ -83,7 +133,7 @@
 
       <div class="container mt-10">
         <div class="grid grid-cols-12 gap-4">
-          <div class="col-span-4 bg-slate-500 text-center">1</div>
+          <div class="col-span-4 bg-slate-500 text-center">grid 1</div>
           <div class="col-span-5 bg-teal-500">2</div>
           <div class="col-span-3 bg-purple-500">3</div>
         </div>
@@ -100,6 +150,12 @@
         <div class="flex flex-row w-full">
           <div class="bg-green-500 w-[1240px] text-center">4</div>
         </div>
+      </div>
+      <div class="container mt-10 grid grid-rows-4 grid-flow-col gap-4">
+        <div class="row-span-2 col-span-2 bg-green-500">04</div>
+        <div class="row-span-2 col-span-2 bg-red-500">03</div>
+        <div class="row-span-4 bg-purple-500">01</div>
+        <div class="row-span-4 bg-teal-500">02</div>
       </div>
     </section>
   </body>

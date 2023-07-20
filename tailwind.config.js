@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         pink: "#F9CADA",
         sky: "#BCE7F0",
+        bgsatu: "#F9F9F9",
       },
       screens: {
         "2xl": "1440px",
